@@ -93,13 +93,14 @@ class Tree:
             print(stack_2.pop().val)
 
 
-t = Tree()
-for i in range(15):
-    t.add(i)
+if __name__ == "__main__":
+    t = Tree()
+    for i in range(15):
+        t.add(i)
 
-# t.pre_order(t.root)
-# t.in_order(t.root)
-# t.post_order(t.root)
-# t.pre_order_2(t.root)
-# t.in_order_2(t.root)
-t.post_order_2(t.root)
+    # t.pre_order(t.root)
+    # t.in_order(t.root)
+    # t.post_order(t.root)
+    # t.pre_order_2(t.root)
+    # t.in_order_2(t.root)
+    t.post_order_2(t.root)
